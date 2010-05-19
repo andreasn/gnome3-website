@@ -1,0 +1,146 @@
+body {
+  font-family: sans-serif;
+}
+
+a {
+  color: #73d216;
+  text-decoration: none;
+}
+
+#wrapper {
+  width: 900px;
+  margin: auto;
+}
+
+#header {
+  width: 900px;
+}
+
+#header .release-date {
+float: right;
+}
+
+#maincolumn {
+  width: 600px;
+  margin-right: 300px;
+}
+
+.videobox {
+  width: 200px;
+  height: 120px;
+  background: #d3d7cf;
+  -moz-border-radius: 7px;
+  text-align: center;
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.misc-videos {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.misc-videos li {
+  display: inline;
+  float: left;
+  margin: 20px 40px 20px 0px;
+  text-align: center;
+  font-size: small;
+}
+
+.misc-videos li img {
+  display: block;
+}
+
+#sidebar {
+  width: 200px;
+  float: right;
+  background: white;
+  border: 1px solid gray;
+  -moz-border-radius: 10px;
+  padding: 20px;
+}
+
+#sidebar #navigation {
+  padding-left: 0px;
+  font-size: 20px;
+  list-style: none;
+}
+
+#sidebar #navigation .current-page {
+  font-weight: bold;
+}
+
+#microblog {
+  list-style: none;
+  padding-left: 0px;
+  font-size: xx-small;
+}
+
+#microblog li {
+  padding-bottom: 3px;
+}
+
+#microblog li img {
+  float: left;
+  height: 30px;
+  width: 30px;
+  padding-right: 3px;
+}
+
+#photofeed {
+background: #73d216;
+width: 900px;
+clear: both;
+}
+
+#site-info {
+text-align: center;
+}
+
+.tweet_list {
+  padding-left: 0px;
+}
+
+.tweet_list li{
+  list-style: none;
+  font-size: xx-small;
+  padding-bottom: 10px;
+}
+
+.tweet_time {
+  display: none;
+}
+
+.tweet_avatar img {
+  float: left;
+  padding-right: 4px;
+}
+
+.flickrHeader {
+  display: none;
+}
+
+.flickrBody {
+clear: both;
+padding-top: 20px;
+}
+
+.flickrBody ul {
+  padding-left: 0px;
+}
+
+.flickrBody ul li {
+  display: inline;
+  padding-right: 10px;
+}
+
+.flickrRow div {
+  display: none;
+}
+
+.flickrRow img {
+  width: 50px;
+  border: 0px;
+}
