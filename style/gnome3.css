@@ -1,5 +1,5 @@
 body {
-  font-family: "Droid Sans","Lucida Grande","DejaVu Sans Condensed",Helvetica,sans-serif;
+  font-family: sans-serif;
 }
 
 a {
@@ -40,8 +40,6 @@ a {
 #maincolumn {
   width: 600px;
   margin-right: 300px;
-  font-size: 1em;
-  line-height: 175%;
 }
 
 .videobox {
