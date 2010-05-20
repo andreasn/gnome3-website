@@ -17,7 +17,11 @@ a {
 }
 
 #header .release-date {
-float: right;
+  float: right;
+}
+
+.release-date img{
+  padding-left: 4px;
 }
 
 #divider {
