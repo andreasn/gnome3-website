@@ -20,6 +20,12 @@ a {
 float: right;
 }
 
+#divider {
+  border-bottom: 1px solid gray;
+  margin-top: -20px;
+  margin-right: -20px;
+}
+
 #maincolumn {
   width: 600px;
   margin-right: 300px;
