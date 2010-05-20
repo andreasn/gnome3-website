@@ -26,6 +26,7 @@ float: right;
   margin-left: -55px;
   float: right;
   width: 845px;
+  z-index: 1;
 }
 
 #maincolumn {
