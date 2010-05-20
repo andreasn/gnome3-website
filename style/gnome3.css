@@ -23,9 +23,9 @@ float: right;
 #divider {
   border-bottom: 1px solid gray;
   margin-top: -27px;
-  margin-left: 45px;
+  margin-left: 55px;
   position:absolute;
-  width: 855px;
+  width: 845px;
   z-index: 1;
 }
 
