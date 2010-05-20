@@ -21,7 +21,7 @@ float: right;
 }
 
 #divider {
-  border-bottom: 1px solid gray;
+  border-bottom: 1px solid #d3d7cf;
   margin-top: -27px;
   margin-left: 55px;
   position:absolute;
