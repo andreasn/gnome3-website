@@ -18,6 +18,7 @@ a {
 
 #header .release-date {
   float: right;
+  margin-top: 20px;
 }
 
 .release-date img{
