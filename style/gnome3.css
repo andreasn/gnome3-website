@@ -107,13 +107,15 @@ a {
 }
 
 #photofeed {
-background: #73d216;
-width: 900px;
-clear: both;
+  background: #73d216;
+  width: 900px;
+  clear: both;
 }
 
 #site-info {
-text-align: center;
+  text-align: center;
+  border-top: 1px solid #d3d7cf;
+  padding-top: 10px;
 }
 
 .tweet_list {
