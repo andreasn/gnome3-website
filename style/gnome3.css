@@ -16,12 +16,12 @@ a {
   width: 900px;
 }
 
-#header .release-date {
+.release-date {
   float: right;
   margin-top: 20px;
 }
 
-#header .release-date img{
+.release-date img{
   padding-left: 4px;
 }
 
