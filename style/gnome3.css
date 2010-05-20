@@ -23,7 +23,7 @@ float: right;
 #divider {
   border-bottom: 1px solid gray;
   margin-top: -23px;
-  margin-right: -55px;
+  margin-left: -55px;
   float: right;
   width: 845px;
 }
