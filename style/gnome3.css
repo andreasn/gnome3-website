@@ -19,6 +19,9 @@ a {
 .release-date {
   float: right;
   margin-top: 20px;
+  font-family: serif;
+  color: #73d216;
+  font-size: 20px;
 }
 
 .release-date img{
