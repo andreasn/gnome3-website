@@ -10,7 +10,7 @@ a {
 h3 {
   color: #73d216;
   font-family: serif;
-  padding-bottom: 0px;
+  margin-bottom: 0px;
 }
 
 #wrapper {
@@ -173,7 +173,9 @@ padding-top: 20px;
 p.question {
   color: gray;
   font-size: small;
+  margin-top: 0px;
 }
 
 p.answer {
+  margin-bottom: 2em;
 }
