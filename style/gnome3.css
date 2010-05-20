@@ -1,5 +1,7 @@
 body {
   font-family: "Droid Sans","Lucida Grande","DejaVu Sans Condensed",Helvetica,sans-serif;
+  font-size: 1em;
+  line-height: 175%;
 }
 
 a {
