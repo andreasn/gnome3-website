@@ -7,6 +7,11 @@ a {
   text-decoration: none;
 }
 
+h3 {
+  color: #73d216;
+  font-family: serif;
+}
+
 #wrapper {
   width: 900px;
   margin: auto;
