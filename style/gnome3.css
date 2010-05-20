@@ -164,6 +164,7 @@ padding-top: 20px;
 
 p.question {
   color: gray;
+  font-size: small;
 }
 
 p.answer {
