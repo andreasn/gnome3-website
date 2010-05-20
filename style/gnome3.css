@@ -23,8 +23,9 @@ float: right;
 #divider {
   border-bottom: 1px solid gray;
   margin-top: -27px;
+  margin-left: 45px;
   position:absolute;
-  width: 845px;
+  width: 800px;
   z-index: 1;
 }
 
