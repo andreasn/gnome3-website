@@ -123,7 +123,9 @@ a {
 .tweet_list li{
   list-style: none;
   font-size: xx-small;
-  padding-bottom: 10px;
+  margin-bottom: 5px;
+  padding: 2px 0px;
+  border-top: 1px solid #d3d7cf;
 }
 
 .tweet_time {
