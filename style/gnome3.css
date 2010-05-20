@@ -24,7 +24,7 @@ float: right;
   border-bottom: 1px solid gray;
   margin-top: -27px;
   margin-left: -55px;
-  float: right;
+position:absolute;
   width: 845px;
   z-index: 1;
 }
