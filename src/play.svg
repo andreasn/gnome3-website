@@ -9,15 +9,15 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="32px"
-   height="32px"
+   width="200"
+   height="120"
    id="svg2816"
    version="1.1"
    inkscape:version="0.47pre4 r22446"
    inkscape:export-filename="/home/andreas/SparkleShare/gnome3-web/images/play.png"
    inkscape:export-xdpi="90"
    inkscape:export-ydpi="90"
-   sodipodi:docname="New document 2">
+   sodipodi:docname="play.svg">
   <defs
      id="defs2818">
     <inkscape:perspective
@@ -35,9 +35,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="5.6568542"
-     inkscape:cx="-10.110107"
-     inkscape:cy="7.368272"
+     inkscape:zoom="2.8284271"
+     inkscape:cx="-13.046639"
+     inkscape:cy="71.83705"
      inkscape:current-layer="layer1"
      showgrid="true"
      inkscape:grid-bbox="true"
@@ -55,28 +55,33 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
   <g
      id="layer1"
      inkscape:label="Layer 1"
-     inkscape:groupmode="layer">
-    <path
-       sodipodi:type="arc"
-       style="color:#000000;fill:#eeeeec;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;opacity:0.25000000000000000"
-       id="path2826"
-       sodipodi:cx="16.610403"
-       sodipodi:cy="17.264965"
-       sodipodi:rx="14.824338"
-       sodipodi:ry="14.824338"
-       d="m 31.434741,17.264965 a 14.824338,14.824338 0 1 1 -29.6486759,0 14.824338,14.824338 0 1 1 29.6486759,0 z"
-       transform="matrix(1.0813253,0,0,1.0813253,-1.8420138,-2.4310657)" />
-    <path
-       style="color:#000000;fill:#eeeeec;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;opacity:0.50000000000000000"
-       d="m 12.512788,8.8613914 11.212894,7.3765856 -11.212894,7.376587 0,-14.7531726 z"
-       id="rect2830"
-       sodipodi:nodetypes="cccc" />
+     inkscape:groupmode="layer"
+     transform="translate(0,88)">
+    <g
+       id="g2826"
+       transform="matrix(1.7719539,0,0,1.7719539,71.139515,-56.566294)">
+      <path
+         transform="matrix(1.0813253,0,0,1.0813253,-1.8420138,-2.4310657)"
+         d="m 31.434741,17.264965 c 0,8.187256 -6.637082,14.824338 -14.824338,14.824338 -8.1872557,0 -14.8243379,-6.637082 -14.8243379,-14.824338 0,-8.1872557 6.6370822,-14.8243379 14.8243379,-14.8243379 8.187256,0 14.824338,6.6370822 14.824338,14.8243379 z"
+         sodipodi:ry="14.824338"
+         sodipodi:rx="14.824338"
+         sodipodi:cy="17.264965"
+         sodipodi:cx="16.610403"
+         id="path2826"
+         style="opacity:0.25;color:#000000;fill:#eeeeec;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         sodipodi:type="arc" />
+      <path
+         sodipodi:nodetypes="cccc"
+         id="rect2830"
+         d="m 12.512788,8.8613914 11.212894,7.3765856 -11.212894,7.376587 0,-14.7531726 z"
+         style="opacity:0.5;color:#000000;fill:#eeeeec;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+    </g>
   </g>
 </svg>
