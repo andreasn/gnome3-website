@@ -87,6 +87,14 @@ h3 {
 }
 
 .misc-videos li img {
+  visibility: hidden;
+}
+
+.misc-videos li:hover img {
+  visibility: visible;
+}
+
+.misc-videos li img {
   display: block;
 }
 
