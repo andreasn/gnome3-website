@@ -59,6 +59,10 @@ h3 {
   margin-bottom: 10px;
 }
 
+.videobox img {
+  border: 0px;
+}
+
 .misc-videos {
   list-style: none;
   padding-left: 0px;

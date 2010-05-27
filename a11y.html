@@ -1,0 +1,105 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"><head>
+<title>GNOME 3.0</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="author" content="Andreas Nilsson"/>
+<meta name="keywords" content="gnome3" />
+<meta name="description" content="gnome3.org" />
+<meta name="robots" content="index, follow" />
+<link rel="stylesheet" href="style/gnome3.css" type="TEXT/CSS" media="screen"/>
+
+<script type="text/javascript" src="jquery.js"></script>
+<script language="javascript" src="jquery.tweet.js" type="text/javascript"></script>
+<script src="jquery.zflickrfeed.min.js" type="text/javascript"></script>
+
+    <script type='text/javascript'>
+      jQuery(document).ready(function($) {
+        $(".tweet").tweet({
+          join_text: "auto",
+          username: "seaofclouds",
+          avatar_size: 48,
+          count: 3,
+          auto_join_text_default: "we said,", 
+          auto_join_text_ed: "we",
+          auto_join_text_ing: "we were",
+          auto_join_text_reply: "we replied",
+          auto_join_text_url: "we were checking out",
+          loading_text: "loading tweets..."
+        });
+        $("#query").tweet({
+          avatar_size: 24,
+          count: 7,
+          query: "gnome",
+          loading_text: "searching twitter..."
+        });
+
+//here is the flickr shit
+	$('#flickr').flickrfeed('','gnome shell', {
+		imagesize: "thumbnail",
+		limit: 15,
+		title: false,
+
+	});
+// and flickr ends here
+
+        $("#empty").tweet({
+          avatar_size: 32,
+          count: 4,
+          query: "cieR8oog",
+          loading_text: "searching twitter..."
+        }).bind("empty", function() { $(this).append("No matching tweets found"); });
+      })
+    </script>
+
+</head>
+<body>
+
+<div id="wrapper">
+<div id="header">
+<img src="images/gnome3-logo.png" alt="GNOME 3 - Made of Easy">
+
+<span class="release-date">Sept 29th 2009 <img src="images/delicious.png"><img src="images/email.png"><img src="images/facebook.png"><img src="images/identica.png"><img src="images/twitter.png"></span>
+</div>
+<div id="divider">&nbsp;</div>
+
+<div id="sidebar">
+<ul id="navigation">
+<li><a href="index.html">home</a></li>
+<li><a href="applications.html">applications</a></li>
+<li><a href="developers.html">developers</a></li>
+<li class="current-page"><a href="a11y.html">accessibility</a></li>
+<li><a href="faq.html">FAQ</a></li>
+</ul>
+
+<h4>Microblog feed</h4>
+<div id="query"></div>
+</div> <!-- end of sidebar -->
+
+<div id="maincolumn">
+
+<h3>Question:</h3>
+<p class="question">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi volutpat, diam a elementum pellentesque, purus ante molestie arcu, ac iaculis risus felis vitae urna. Praesent magna mauris, hendrerit at varius at, mollis vitae mi.</p>
+<p class="answer">Donec auctor suscipit tempus. Donec nec risus felis. Vestibulum vitae sem id velit cursus pulvinar ut vitae magna. Nulla fermentum felis eget dolor laoreet vulputate. Nunc lacus diam, lobortis quis placerat nec, porta et ipsum. Donec non urna feugiat justo molestie feugiat egestas ac enim. Fusce urna lacus, feugiat quis cursus eu, vulputate sed felis. Aenean iaculis leo vitae libero porta fermentum. </p>
+
+<h3>Question:</h3>
+<p class="question">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi volutpat, diam a elementum pellentesque, purus ante molestie arcu, ac iaculis risus felis vitae urna. Praesent magna mauris, hendrerit at varius at, mollis vitae mi.</p>
+<p class="answer">Donec auctor suscipit tempus. Donec nec risus felis. Vestibulum vitae sem id velit cursus pulvinar ut vitae magna. Nulla fermentum felis eget dolor laoreet vulputate. Nunc lacus diam, lobortis quis placerat nec, porta et ipsum. Donec non urna feugiat justo molestie feugiat egestas ac enim. Fusce urna lacus, feugiat quis cursus eu, vulputate sed felis. Aenean iaculis leo vitae libero porta fermentum. </p>
+
+<h3>Question:</h3>
+<p class="question">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi volutpat, diam a elementum pellentesque, purus ante molestie arcu, ac iaculis risus felis vitae urna. Praesent magna mauris, hendrerit at varius at, mollis vitae mi.</p>
+<p class="answer">Donec auctor suscipit tempus. Donec nec risus felis. Vestibulum vitae sem id velit cursus pulvinar ut vitae magna. Nulla fermentum felis eget dolor laoreet vulputate. Nunc lacus diam, lobortis quis placerat nec, porta et ipsum. Donec non urna feugiat justo molestie feugiat egestas ac enim. Fusce urna lacus, feugiat quis cursus eu, vulputate sed felis. Aenean iaculis leo vitae libero porta fermentum. </p>
+
+<h3>Question:</h3>
+<p class="question">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi volutpat, diam a elementum pellentesque, purus ante molestie arcu, ac iaculis risus felis vitae urna. Praesent magna mauris, hendrerit at varius at, mollis vitae mi.</p>
+<p class="answer">Donec auctor suscipit tempus. Donec nec risus felis. Vestibulum vitae sem id velit cursus pulvinar ut vitae magna. Nulla fermentum felis eget dolor laoreet vulputate. Nunc lacus diam, lobortis quis placerat nec, porta et ipsum. Donec non urna feugiat justo molestie feugiat egestas ac enim. Fusce urna lacus, feugiat quis cursus eu, vulputate sed felis. Aenean iaculis leo vitae libero porta fermentum. </p>
+
+</div>
+
+<div id="flickr"></div>
+
+<div id="site-info">&copy; GNOME Foundation 2010, all content on this site is CCBYSA, Hosted by GNOME</div>
+</div>
+
+
+</body>
+</html>
