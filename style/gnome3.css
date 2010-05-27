@@ -79,8 +79,8 @@ h3 {
   display: inline;
   float: left;
   margin: 20px 40px 20px 0px;
-  text-align: center;
-  font-size: small;
+  width: 156px;
+  height: 96px;
 }
 
 .misc-videos li img {
