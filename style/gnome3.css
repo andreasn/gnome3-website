@@ -81,7 +81,9 @@ h3 {
   margin: 20px 40px 20px 0px;
   width: 156px;
   height: 96px;
-  background: red;
+  background: #d3d7cf;
+  background-image: url("../images/video-bug.png");
+  -moz-border-radius: 7px;
 }
 
 .misc-videos li img {
