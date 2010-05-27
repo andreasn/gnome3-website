@@ -82,7 +82,7 @@ h3 {
   width: 156px;
   height: 96px;
   background: #d3d7cf;
-  background-image: url("../images/video-bug.png");
+  background-image: url("../images/video-bug.png") no-repeat;
   -moz-border-radius: 7px;
   text-align: center;
 }
