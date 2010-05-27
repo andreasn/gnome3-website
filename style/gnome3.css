@@ -64,7 +64,7 @@ h3 {
   visibility: hidden;
 }
 
-.videobox img:hover {
+.videobox:hover img {
   visibility: visible;
 }
 
