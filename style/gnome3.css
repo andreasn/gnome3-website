@@ -88,6 +88,7 @@ h3 {
 
 .misc-videos li img {
   visibility: hidden;
+  border: 0;
 }
 
 .misc-videos li:hover img {
